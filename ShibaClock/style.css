@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fascinate Inline', cursive;
+    font-weight: lighter;
+    font-size: 35px;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    padding: 3rem;
+    background-color: rgba(120  , 253, 31, 0.60);
+}
+
+#clock-container {
+    display: block;
+}
+
+#shiba img{
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+}
