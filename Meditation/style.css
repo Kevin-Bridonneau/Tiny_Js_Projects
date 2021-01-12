@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/sea.gif);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#sea {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    background-color:  rgba(255, 255, 255, 0.836);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#sea:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#sea:focus{
+    outline: none;
+}
+
+#sea img {
+    width: 100px;
+}
+
+#rain {
+    position: fixed;
+    top: 50vh -100px;
+    right: 25px;
+    background-color:  rgba(255, 255, 255, 0.836);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#rain:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#rain:focus{
+    outline: none;
+}
+
+#rain img {
+    width: 100px;
+}
+
+#play {
+    background-color:  rgba(255, 255, 255, 0.534);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#play:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#play:focus{
+    outline: none;
+}
+
+#play img{
+    width: 200px;
+}

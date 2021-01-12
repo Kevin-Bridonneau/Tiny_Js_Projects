@@ -69,5 +69,6 @@ function displayShiba(){
     }  
 }
 
-setInterval(displayShiba,1000)
+displayShiba()
+setInterval(displayShiba,60000)
 setInterval(displayClock,1000)
