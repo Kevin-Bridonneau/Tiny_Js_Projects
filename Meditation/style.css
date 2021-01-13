@@ -39,6 +39,78 @@ body {
     width: 100px;
 }
 
+#thunder {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    background-color:  rgba(255, 255, 255, 0.836);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#thunder:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#thunder:focus{
+    outline: none;
+}
+
+#thunder img {
+    width: 100px;
+}
+
+#forest {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color:  rgba(255, 255, 255, 0.836);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#forest:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#forest:focus{
+    outline: none;
+}
+
+#forest img {
+    width: 100px;
+}
+
+#diving {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background-color:  rgba(255, 255, 255, 0.836);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#diving:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#diving:focus{
+    outline: none;
+}
+
+#diving img {
+    width: 100px;
+}
+
 #rain {
     position: fixed;
     top: 50vh -100px;
@@ -63,6 +135,30 @@ body {
     width: 100px;
 }
 
+#space {
+    position: fixed;
+    top: 50vh -100px;
+    left: 25px;
+    background-color:  rgba(255, 255, 255, 0.836);
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#space:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#space:focus{
+    outline: none;
+}
+
+#space img {
+    width: 100px;
+}
+
 #play {
     background-color:  rgba(255, 255, 255, 0.534);
     border-radius: 50%;
@@ -82,4 +178,60 @@ body {
 
 #play img{
     width: 200px;
+}
+
+#tempo2 {
+    background-color:  rgba(235, 236, 140, 0.801);
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#tempo2:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#tempo2:focus{
+    outline: none;
+}
+
+#tempo5 {
+    background-color:  rgba(236, 178, 140, 0.801);
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#tempo5:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#tempo5:focus{
+    outline: none;
+}
+
+#tempo10 {
+    background-color:  rgba(236, 143, 140, 0.801);
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#tempo10:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+#tempo10:focus{
+    outline: none;
+}
+
+#tempo-container{
+    position: fixed;
+    top: 15px;
 }
